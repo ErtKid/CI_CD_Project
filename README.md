@@ -1,3 +1,3 @@
-#CI_CD Project
+# CI_CD Project
 
 Maxime Avrillon-Thade
