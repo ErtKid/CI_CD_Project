@@ -1,11 +1,19 @@
 FROM python:3.8-slim
 
+
+
+COPY backend/requirements.txt /app/requirements.txt
+
 WORKDIR /app
 
-COPY backend/requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
-COPY backend /app
-COPY frontend /app
+#Copy le backend et le frontend
+COPY . /app
+
+
+EXPOSE 5000
+
+WORKDIR /app/backend
 
 CMD ["flask", "run", "--host=0.0.0.0"]
