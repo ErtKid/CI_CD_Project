@@ -1,3 +1,5 @@
 # CI_CD Project
 
+Le projet "CI_CD_Project" est une application Todo List conçue pour démontrer les pratiques de développement full-stack, de containerisation et de CI/CD. Elle utilise Flask comme framework backend, écrit en Python, pour gérer les opérations de la liste de tâches. Le frontend est construit avec des technologies web standard (HTML, CSS, JavaScript), et peut être étendu avec des frameworks comme React ou Vue.js. La base de données utilise MySQL, gérée dans un environnement Docker pour assurer la portabilité et la facilité de déploiement. Les tests sont effectués à la fois sur le frontend et le backend pour garantir la fiabilité. Le projet intègre GitHub Actions pour l'intégration continue et le déploiement continu (CI/CD), assurant des mises à jour automatiques et un suivi des versions. Un Nginx reverse proxy est configuré pour gérer les requêtes client et augmenter la sécurité. Toute l'infrastructure est orchestrée à l'aide de Docker Compose, rendant le projet facile à déployer et à gérer.
+
 Maxime Avrillon-Thade
