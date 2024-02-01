@@ -2,7 +2,8 @@ from flask import Flask,render_template,request,redirect,url_for
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__, template_folder='../frontend/templates', static_folder='../frontend/static')
-app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://user:password@db/tododb'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://utilisateur:mot_de_passe@db/nom_de_la_base_de_donnees'
+
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 db= SQLAlchemy(app)
 
