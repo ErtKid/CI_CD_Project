@@ -1,8 +1,6 @@
 # CI_CD Project
 [![Build and Push Docker Image](https://github.com/ErtKid/CI_CD_Project/actions/workflows/push_dockerhub.yml/badge.svg)](https://github.com/ErtKid/CI_CD_Project/actions/workflows/push_dockerhub.yml)
 
-Maxime Avrillon-Thade
-
 # To-Do List Application
 
 Cette application de liste de tâches est un projet web simple qui utilise Flask pour le backend, MySQL pour la base de données et NGINX comme serveur web/proxy inverse. L'application permet aux utilisateurs de créer, mettre à jour et supprimer des tâches.
@@ -56,3 +54,9 @@ Push sur Docker Hub :
 ![alt text](img/push_image_docker_hub.png)
 Architecture du Projet :
 ![alt text](img/Schema_archi.png)
+
+
+
+
+
+Maxime Avrillon-Thade
