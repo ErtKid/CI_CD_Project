@@ -7,6 +7,9 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://utilisateur:mot_de_pass
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 db= SQLAlchemy(app)
 
+class TestConfig:
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
+    TESTING = True
 
 class Todo(db.Model):
     task_id=db.Column(db.Integer,primary_key=True)
