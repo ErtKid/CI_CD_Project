@@ -1,4 +1,5 @@
 # CI_CD Project
+[![Build and Push Docker Image](https://github.com/ErtKid/CI_CD_Project/actions/workflows/push_dockerhub.yml/badge.svg)](https://github.com/ErtKid/CI_CD_Project/actions/workflows/push_dockerhub.yml)
 
 Maxime Avrillon-Thade
 
