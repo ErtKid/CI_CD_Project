@@ -25,9 +25,9 @@ Pour exécuter le projet, vous devez avoir installé :
 2.  **Construire et démarrer les conteneurs :** :
     Utilisez Docker Compose pour construire et démarrer les conteneurs :
 
-        ```bash
-        docker-compose up --build -d
-        ```
+    ```bash
+    docker-compose up --build -d
+    ```
 
 3.  **Initialiser la base de données :** :
     Aucune action supplémentaire n'est nécessaire. Lors du premier démarrage, Flask créera les tables nécessaires à l'application.
@@ -54,5 +54,6 @@ Après avoir démarré les conteneurs, vous pouvez accéder à l'application via
 ## Images
 
 Push sur Docker Hub :
-
+![alt text](img/push_image_docker_hub.png)
 Architecture du Projet :
+![alt text](img/Schema_archi.png)
